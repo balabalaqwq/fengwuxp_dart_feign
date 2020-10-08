@@ -1,0 +1,11 @@
+targets:
+  $default:
+    builders:
+      reflectable:
+        generate_for:
+          - test/feign/**_test.dart
+          - test/cms/**_test.dart
+          - test/ynd/**_feign_client.dart
+        options:
+          formatted: true
+
